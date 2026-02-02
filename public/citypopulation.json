@@ -1,0 +1,36 @@
+[
+  { "state": "New York", "age": "under 5", "population": 120000 },
+  { "state": "New York", "age": "5-16", "population": 350000 },
+  { "state": "New York", "age": "18-25", "population": 220000 },
+  { "state": "New York", "age": "25-40", "population": 410000 },
+
+  { "state": "Los Angeles", "age": "under 5", "population": 95000 },
+  { "state": "Los Angeles", "age": "5-16", "population": 280000 },
+  { "state": "Los Angeles", "age": "18-25", "population": 200000 },
+  { "state": "Los Angeles", "age": "25-40", "population": 390000 },
+
+  { "state": "Chicago", "age": "under 5", "population": 80000 },
+  { "state": "Chicago", "age": "5-16", "population": 210000 },
+  { "state": "Chicago", "age": "18-25", "population": 150000 },
+  { "state": "Chicago", "age": "25-40", "population": 320000 },
+
+  { "state": "Houston", "age": "under 5", "population": 70000 },
+  { "state": "Houston", "age": "5-16", "population": 190000 },
+  { "state": "Houston", "age": "18-25", "population": 140000 },
+  { "state": "Houston", "age": "25-40", "population": 300000 },
+
+  { "state": "Phoenix", "age": "under 5", "population": 60000 },
+  { "state": "Phoenix", "age": "5-16", "population": 160000 },
+  { "state": "Phoenix", "age": "18-25", "population": 120000 },
+  { "state": "Phoenix", "age": "25-40", "population": 250000 },
+
+  { "state": "Philadelphia", "age": "under 5", "population": 75000 },
+  { "state": "Philadelphia", "age": "5-16", "population": 170000 },
+  { "state": "Philadelphia", "age": "18-25", "population": 130000 },
+  { "state": "Philadelphia", "age": "25-40", "population": 280000 },
+
+  { "state": "San Antonio", "age": "under 5", "population": 65000 },
+  { "state": "San Antonio", "age": "5-16", "population": 150000 },
+  { "state": "San Antonio", "age": "18-25", "population": 110000 },
+  { "state": "San Antonio", "age": "25-40", "population": 240000 }
+]

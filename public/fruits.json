@@ -1,0 +1,320 @@
+[
+  {
+    "Date": "1/1/10",
+    "Apples": "5.53",
+    "Blueberries": "11.55",
+    "Carrots": "9.99"
+  },
+  {
+    "Date": "1/2/10",
+    "Apples": "5.29",
+    "Blueberries": "11.17",
+    "Carrots": "9.57"
+  },
+  {
+    "Date": "1/3/10",
+    "Apples": "4.93",
+    "Blueberries": "10.86",
+    "Carrots": "9.24"
+  },
+  {
+    "Date": "1/4/10",
+    "Apples": "4.64",
+    "Blueberries": "10.53",
+    "Carrots": "8.9"
+  },
+  {
+    "Date": "1/5/10",
+    "Apples": "4.5",
+    "Blueberries": "10.47",
+    "Carrots": "8.86"
+  },
+  {
+    "Date": "1/6/10",
+    "Apples": "4.59",
+    "Blueberries": "10.46",
+    "Carrots": "8.81"
+  },
+  {
+    "Date": "1/7/10",
+    "Apples": "4.75",
+    "Blueberries": "10.62",
+    "Carrots": "8.94"
+  },
+  {
+    "Date": "1/8/10",
+    "Apples": "4.88",
+    "Blueberries": "10.97",
+    "Carrots": "9.21"
+  },
+  {
+    "Date": "1/9/10",
+    "Apples": "4.74",
+    "Blueberries": "11.29",
+    "Carrots": "9.44"
+  },
+  {
+    "Date": "1/10/10",
+    "Apples": "5.33",
+    "Blueberries": "11.83",
+    "Carrots": "9.9"
+  },
+  {
+    "Date": "1/11/10",
+    "Apples": "5.49",
+    "Blueberries": "11.85",
+    "Carrots": "9.85"
+  },
+  {
+    "Date": "1/12/10",
+    "Apples": "5.27",
+    "Blueberries": "12",
+    "Carrots": "9.96"
+  },
+  {
+    "Date": "1/13/10",
+    "Apples": "5.19",
+    "Blueberries": "12.57",
+    "Carrots": "10.39"
+  },
+  {
+    "Date": "1/14/10",
+    "Apples": "5.36",
+    "Blueberries": "13.43",
+    "Carrots": "11.05"
+  },
+  {
+    "Date": "1/15/10",
+    "Apples": "5.59",
+    "Blueberries": "13.86",
+    "Carrots": "11.31"
+  },
+  {
+    "Date": "1/16/10",
+    "Apples": "5.35",
+    "Blueberries": "13.38",
+    "Carrots": "10.86"
+  },
+  {
+    "Date": "1/17/10",
+    "Apples": "5.02",
+    "Blueberries": "13.43",
+    "Carrots": "10.9"
+  },
+  {
+    "Date": "1/18/10",
+    "Apples": "5.18",
+    "Blueberries": "13.9",
+    "Carrots": "11.17"
+  },
+  {
+    "Date": "1/19/10",
+    "Apples": "5.42",
+    "Blueberries": "14.32",
+    "Carrots": "11.43"
+  },
+  {
+    "Date": "1/20/10",
+    "Apples": "5.64",
+    "Blueberries": "14.7",
+    "Carrots": "11.71"
+  },
+  {
+    "Date": "1/21/10",
+    "Apples": "5.68",
+    "Blueberries": "14.08",
+    "Carrots": "11.2"
+  },
+  {
+    "Date": "1/22/10",
+    "Apples": "5.92",
+    "Blueberries": "13.59",
+    "Carrots": "10.75"
+  },
+  {
+    "Date": "1/23/10",
+    "Apples": "5.85",
+    "Blueberries": "13.43",
+    "Carrots": "10.58"
+  },
+  {
+    "Date": "1/24/10",
+    "Apples": "6.27",
+    "Blueberries": "13.19",
+    "Carrots": "10.36"
+  },
+  {
+    "Date": "1/25/10",
+    "Apples": "6.45",
+    "Blueberries": "13.11",
+    "Carrots": "10.19"
+  },
+  {
+    "Date": "1/26/10",
+    "Apples": "6.56",
+    "Blueberries": "13.09",
+    "Carrots": "10.15"
+  },
+  {
+    "Date": "1/27/10",
+    "Apples": "7.19",
+    "Blueberries": "13.32",
+    "Carrots": "10.22"
+  },
+  {
+    "Date": "1/28/10",
+    "Apples": "7.17",
+    "Blueberries": "13.22",
+    "Carrots": "10.04"
+  },
+  {
+    "Date": "1/29/10",
+    "Apples": "6.82",
+    "Blueberries": "13.16",
+    "Carrots": "9.92"
+  },
+  {
+    "Date": "1/30/10",
+    "Apples": "7.48",
+    "Blueberries": "13.69",
+    "Carrots": "10.32"
+  },
+  {
+    "Date": "1/31/10",
+    "Apples": "7.61",
+    "Blueberries": "14.18",
+    "Carrots": "10.6"
+  },
+  {
+    "Date": "2/1/10",
+    "Apples": "7.76",
+    "Blueberries": "14.27",
+    "Carrots": "10.47"
+  },
+  {
+    "Date": "2/2/10",
+    "Apples": "8.31",
+    "Blueberries": "14.07",
+    "Carrots": "10.35"
+  },
+  {
+    "Date": "2/3/10",
+    "Apples": "8.44",
+    "Blueberries": "13.57",
+    "Carrots": "9.95"
+  },
+  {
+    "Date": "2/4/10",
+    "Apples": "8.48",
+    "Blueberries": "13.37",
+    "Carrots": "9.78"
+  },
+  {
+    "Date": "2/5/10",
+    "Apples": "8.83",
+    "Blueberries": "13.52",
+    "Carrots": "9.86"
+  },
+  {
+    "Date": "2/6/10",
+    "Apples": "8.87",
+    "Blueberries": "13.27",
+    "Carrots": "9.74"
+  },
+  {
+    "Date": "2/7/10",
+    "Apples": "8.51",
+    "Blueberries": "12.74",
+    "Carrots": "9.28"
+  },
+  {
+    "Date": "2/8/10",
+    "Apples": "8.54",
+    "Blueberries": "12.06",
+    "Carrots": "8.74"
+  },
+  {
+    "Date": "2/9/10",
+    "Apples": "9.05",
+    "Blueberries": "12.15",
+    "Carrots": "8.83"
+  },
+  {
+    "Date": "2/10/10",
+    "Apples": "9.03",
+    "Blueberries": "11.72",
+    "Carrots": "8.51"
+  },
+  {
+    "Date": "2/11/10",
+    "Apples": "8.82",
+    "Blueberries": "10.69",
+    "Carrots": "7.73"
+  },
+  {
+    "Date": "2/12/10",
+    "Apples": "8.88",
+    "Blueberries": "10.56",
+    "Carrots": "7.58"
+  },
+  {
+    "Date": "2/13/10",
+    "Apples": "8.82",
+    "Blueberries": "10.66",
+    "Carrots": "7.66"
+  },
+  {
+    "Date": "2/14/10",
+    "Apples": "9.45",
+    "Blueberries": "10.67",
+    "Carrots": "7.65"
+  },
+  {
+    "Date": "2/15/10",
+    "Apples": "10.18",
+    "Blueberries": "10.24",
+    "Carrots": "7.32"
+  },
+  {
+    "Date": "2/16/10",
+    "Apples": "10.25",
+    "Blueberries": "9.96",
+    "Carrots": "7.06"
+  },
+  {
+    "Date": "2/17/10",
+    "Apples": "11.27",
+    "Blueberries": "10.24",
+    "Carrots": "7.22"
+  },
+  {
+    "Date": "2/18/10",
+    "Apples": "11.93",
+    "Blueberries": "10.02",
+    "Carrots": "7.04"
+  },
+  {
+    "Date": "2/19/10",
+    "Apples": "12.63",
+    "Blueberries": "10.21",
+    "Carrots": "7.16"
+  },
+  {
+    "Date": "2/20/10",
+    "Apples": "12.92",
+    "Blueberries": "10.39",
+    "Carrots": "7.24"
+  },
+  {
+    "Date": "2/21/10",
+    "Apples": "13.51",
+    "Blueberries": "10.74",
+    "Carrots": "7.4"
+  },
+  {
+    "Date": "2/22/10",
+    "Apples": "15.11",
+    "Blueberries": "11.43",
+    "Carrots": "7.83"
+  }
+]

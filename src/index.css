@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: Aldrich;
+  src: url('../../vite-project/src/assets/fonts/Aldrich-Regular.ttf');
+}
+
+@font-face {
+ font-family: Orbitron;
+  src: url('../../vite-project/src/assets/fonts/Orbitron-SemiBold.ttf');
+}
+
+@font-face {
+ font-family: Inter;
+  src: url('../../vite-project/src/assets/fonts/Inter-Regular.ttf');
+}
+
+@theme {
+  --color-dark-mode: black;
+  --color-custom-bg: #1A1A1A;
+  --font-Aldrich: Aldrich, "sans-serif";
+  --font-Orbitron: Orbitron, "sans-serif";
+  --font-Inter: Inter, "sans-serif";
+}
+
+
+
+.numbers{
+background: #1A1A1A;
+}

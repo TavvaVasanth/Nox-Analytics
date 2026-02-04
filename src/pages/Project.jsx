@@ -45,7 +45,11 @@ import ProjectionComparsion from "../component/Charts/ProjectionComparsion.jsx";
 import AntimeridianCutting from "../component/Charts/AntimeridianCutting.jsx";
 import Tossit from "../component/Charts/Tissot";
 import SolarTerminator from "../component/Charts/SolarTerminator.jsx";
- 
+import WorldAirportVoronoi from "../component/Charts/WorldAirportVoronoi.jsx";
+import UsAirportVoronoi from "../component/Charts/UsAirportVoronoi.jsx";
+import VectorField from "../component/Charts/VectorField.jsx";
+import GeoTiff from "../component/Charts/GeoTiff.jsx";
+
  
  
 
@@ -478,6 +482,11 @@ const Project = () => {
   <AntimeridianCutting></AntimeridianCutting>
   <Tossit></Tossit>
   <SolarTerminator></SolarTerminator>
+  <UsAirportVoronoi></UsAirportVoronoi>
+  <WorldAirportVoronoi></WorldAirportVoronoi>
+  <VectorField></VectorField>
+  <GeoTiff></GeoTiff>
+
 </div>
     </div>
   );

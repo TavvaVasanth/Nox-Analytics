@@ -49,6 +49,30 @@ import WorldAirportVoronoi from "../component/Charts/WorldAirportVoronoi.jsx";
 import UsAirportVoronoi from "../component/Charts/UsAirportVoronoi.jsx";
 import VectorField from "../component/Charts/VectorField.jsx";
 import GeoTiff from "../component/Charts/GeoTiff.jsx";
+import StarMap from "../component/Charts/StarMap.jsx";
+import NonContiguousCartogram from "../component/Charts/NonContiguousCartogram.jsx";
+import SolarPath from "./SolarPath.jsx";
+import PolarChart from "../component/PolarChart.jsx";
+import SternBrocotTree from "../component/SternBrocotTree.jsx";
+import PulsarChart from "../component/Charts/PulsarChart.jsx";
+import GearGraphic from "../component/Charts/GearGraphic.jsx";
+import Tadpoles from "../component/Charts/Tadpoles.jsx";
+import SpilhausShorelineMap from "../component/Charts/SpilhausShorelineMap.jsx";
+import PhasesoftheMoon from "../component/Charts/PhasesoftheMoon.jsx";
+import WaterColor from "../component/Charts/WaterColor.jsx";
+import MirroredBeeswarm from "../component/Charts/MirroredBeeswarm.jsx";
+import GraticuleLabels from "../component/Charts/GraticuleLabels.jsx";
+import VoronoStippling from "../component/VoronoStippling.jsx";
+import OwltotheMax from "../component/Charts/OwltotheMax.jsx";
+import Wordcloud from "../component/Charts/WordCloud.jsx";
+import WebMercator from "../component/Charts/WebMercator.jsx";
+import DeathComparison from "../component/Charts/ComparsionMap.jsx";
+import ColorSchema from "../component/Charts/ColorSchema.jsx";
+import ColorLegend from "../component/Charts/ColorLegend.jsx";
+import DirectlyLabellingLines from "../component/Charts/DirectlyLabellingLines.jsx";
+import StyledAxes from "../component/Charts/StyledAxes.jsx";
+import PredatorPreyCharts from "../component/Charts/PredatorPreyCharts.jsx";
+import ComparisonMap from "../component/Charts/ComparsionMap.jsx";
 
  
  
@@ -455,40 +479,153 @@ const Project = () => {
       <ZoomableTreemap/>
       <ZoomableCirclePacking/>
       <RadialAreaChart/>
-      <div className="bg-white my-4">
-        <h3>Radial Stacked Bar Chart</h3>
-        <RadialStackedBarChart data={req}/>
-      </div>
-      <div className="bg-white my-3">
-        <h3>InLine Chart</h3>
-        <Inline></Inline>
-        <LineChart></LineChart>
-      </div>
-      <div className="bg-white my-3">
-        <h3>Radial stacked Bar Chart Sorted</h3>
-          <Radial></Radial>
-          <Voronoi></Voronoi>
-      </div>
-      <div className="bg-gray-500">
-  <Choropleth />
+      <div className="space-y-6"> 
+  {/* RadialStackedBarChart */}
+  <div className="bg-white p-4 rounded shadow">
+    <h3 className="text-lg font-semibold mb-2">RadialStackedBarChart</h3>
+    <RadialStackedBarChart data={req} />
+  </div>
+
+  {/* Inline + LineChart */}
+  <div className="bg-white p-4 rounded shadow">
+    <h3 className="text-lg font-semibold mb-2">Inline</h3>
+    <Inline />
+    <LineChart />
+  </div>
+
+  {/* Radial + Voronoi */}
+  <div className="bg-white p-4 rounded shadow">
+    <h3 className="text-lg font-semibold mb-2">Radial</h3>
+    <Radial />
+    <Voronoi />
+  </div>
+
+  {/* Choropleth */}
+  <div className="bg-gray-100 p-4 rounded shadow">
+    <h3 className="text-lg font-semibold mb-2">Choropleth</h3>
+    <Choropleth />
+  </div>
+
+  {/* Other Components */}
+  <div className="bg-white p-4 rounded shadow space-y-4">
+    <h3 className="text-lg font-semibold mb-2">BivariateChoropleth</h3>
+    <BivariateChoropleth />
+
+    <h3 className="text-lg font-semibold mb-2">StateChoropleth</h3>
+    <StateChoropleth />
+
+    <h3 className="text-lg font-semibold mb-2">WorldChoropleth</h3>
+    <WorldChoropleth />
+
+    <h3 className="text-lg font-semibold mb-2">WorldMap</h3>
+    <WorldMap />
+
+    <h3 className="text-lg font-semibold mb-2">WorldProjections</h3>
+    <WorldProjections />
+
+    <h3 className="text-lg font-semibold mb-2">ProjectionComparsion</h3>
+    <ProjectionComparsion />
+
+    <h3 className="text-lg font-semibold mb-2">AntimeridianCutting</h3>
+    <AntimeridianCutting />
+
+    <h3 className="text-lg font-semibold mb-2">Tossit</h3>
+    <Tossit />
+
+    <h3 className="text-lg font-semibold mb-2">SolarTerminator</h3>
+    <SolarTerminator />
+
+    <h3 className="text-lg font-semibold mb-2">UsAirportVoronoi</h3>
+    <UsAirportVoronoi />
+
+    <h3 className="text-lg font-semibold mb-2">WorldAirportVoronoi</h3>
+    <WorldAirportVoronoi />
+
+    <h3 className="text-lg font-semibold mb-2">VectorField</h3>
+    <VectorField />
+
+    <h3 className="text-lg font-semibold mb-2">GeoTiff</h3>
+    <GeoTiff />
+
+    <h3 className="text-lg font-semibold mb-2">StarMap</h3>
+    <StarMap />
+
+    <h3 className="text-lg font-semibold mb-2">NonContiguousCartogram</h3>
+    <NonContiguousCartogram />
+
+    <h3 className="text-lg font-semibold mb-2">SolarPath</h3>
+    <SolarPath />
+
+    <h3 className="text-lg font-semibold mb-2">PolarChart</h3>
+    <PolarChart />
+
+    <h3 className="text-lg font-semibold mb-2">SternBrocotTree</h3>
+    <SternBrocotTree />
+
+    <h3 className="text-lg font-semibold mb-2">VoronoStippling</h3>
+    <VoronoStippling imageSrc="/obama.png" width={600} />
+
+    <h3 className="text-lg font-semibold mb-2">PulsarChart</h3>
+    <PulsarChart />
+
+    <h3 className="text-lg font-semibold mb-2">GearGraphic</h3>
+    <GearGraphic />
+
+    <h3 className="text-lg font-semibold mb-2">OwltotheMax</h3>
+    <OwltotheMax imageSrc="/owl.jpg" />
+
+    <h3 className="text-lg font-semibold mb-2">Tadpoles</h3>
+    <Tadpoles />
+
+    <h3 className="text-lg font-semibold mb-2">Wordcloud</h3>
+    <Wordcloud file="/dream.txt" width={800} height={500} />
+
+    <h3 className="text-lg font-semibold mb-2">SpilhausShorelineMap</h3>
+    <SpilhausShorelineMap />
+
+    <h3 className="text-lg font-semibold mb-2">PhasesoftheMoon</h3>
+    <PhasesoftheMoon />
+
+    <h3 className="text-lg font-semibold mb-2">WaterColor</h3>
+    <WaterColor />
+
+    <h3 className="text-lg font-semibold mb-2">MirroredBeeswarm</h3>
+    <MirroredBeeswarm />
+
+    <h3 className="text-lg font-semibold mb-2">GraticuleLabels</h3>
+    <GraticuleLabels />
+
+    <h3 className="text-lg font-semibold mb-2">RadialAreaChart</h3>
+    <RadialAreaChart />
+
+    <h3 className="text-lg font-semibold mb-2">WebMercator</h3>
+    <WebMercator />
+
+    <h3 className="text-lg font-semibold mb-2">ComparisonMap</h3>
+    <ComparisonMap />
+
+    <h3 className="text-lg font-semibold mb-2">ColorSchema</h3>
+    <ColorSchema />
+
+    <h3 className="text-lg font-semibold mb-2">ColorLegend</h3>
+    <ColorLegend />
+
+    <h3 className="text-lg font-semibold mb-2">DirectlyLabellingLines</h3>
+    <DirectlyLabellingLines />
+
+    <h3 className="text-lg font-semibold mb-2">StyledAxes</h3>
+    <StyledAxes />
+
+    <h3 className="text-lg font-semibold mb-2">PredatorPreyCharts (Timeline)</h3>
+    <PredatorPreyCharts alpha={1} beta={0.5} gamma={0.5} delta={0.1} x0={2} y0={1} mode="timeline" />
+
+    <h3 className="text-lg font-semibold mb-2">PredatorPreyCharts (Comparison)</h3>
+    <PredatorPreyCharts alpha={1} beta={0.5} gamma={0.5} delta={0.1} x0={0.5} y0={1} mode="comparison" />
+  </div>
 </div>
-<div className="bg-white my-3">
-  <BivariateChoropleth></BivariateChoropleth>
-  <StateChoropleth></StateChoropleth>
-  <WorldChoropleth></WorldChoropleth>
-  <WorldMap></WorldMap>
-  <WorldProjections></WorldProjections>
-  <ProjectionComparsion></ProjectionComparsion>
-  <AntimeridianCutting></AntimeridianCutting>
-  <Tossit></Tossit>
-  <SolarTerminator></SolarTerminator>
-  <UsAirportVoronoi></UsAirportVoronoi>
-  <WorldAirportVoronoi></WorldAirportVoronoi>
-  <VectorField></VectorField>
-  <GeoTiff></GeoTiff>
 
 </div>
-    </div>
+  
   );
 };
 
